@@ -29,7 +29,7 @@ https://github.com/magneto261290/shell-bot
 > Click on **Begin Import**
 > Wait for importing to be finished
 - After importing has been done, go to your repo and edit README.md and config.json files
-- got to end of READMe.md file and replace `https://github.com/magneto261290/shell-bot` with you repo URL and save file.
+- got to end of READMe.md file and replace `your_repo_url` with you shell-bot's repo URL and save file.
 - Now in config.json file, fill your Bot Token and Owner ID
 - now go to .config/rclone folder and put your rclone config file (for rclone)
 - go to accounts folder and upload your service accounts json file (for folderclone)
@@ -131,4 +131,4 @@ node server
 Deploy to heroku
 ```
 **Click this button to deploy to heroku**
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/magneto261290/shell3)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=your_repo_url)
