@@ -1,0 +1,3 @@
+git+https://github.com/FaArIsH/youtube-dl
+streamlink
+folderclone

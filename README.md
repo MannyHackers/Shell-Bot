@@ -1,11 +1,41 @@
 # shell-bot
-```
-First go down to see how to deploy to heroku.
-```
 This is a fully functional shellrunner [Telegram bot][]. You tell it a
 command, it executes it and posts the live output. You can send input to the
 command by replying to the output messages.
 
+# How to Deploy on Heroku
+- Must follow this guide for automatic installing these useful softwares
+```
+rclone
+folderclone
+ffmpeg
+youtube-dl
+streamlink
+aria2c
+megatools
+ngrok
+qbittorrent-nox
+rar & unrar
+p7zip (support almost every archive type except rar)
+```
+- Import this repo (do not fork, otherwise you will not be able to make it private)
+> First go to https://github.com/new and fill **shell-bot** in **Repository name** field.
+> Then check **Private** (important)
+> Then click on **Create Repository**
+> Go to down and click on **Import code** and paste this :
+```
+https://github.com/magneto261290/shell-bot
+```
+> Click on **Begin Import**
+> Wait for importing to be finished
+- After importing has been done, go to your repo and edit README.md and config.json files
+- got to end of file and replace `https://github.com/magneto261290/shell-bot` with you repo URL and save file.
+- Now in config.json file, fill your Bot Token and Owner ID
+- now go to .config/rclone folder and put your rclone config file (for rclone)
+- go to accounts folder and upload your service accounts json file (for folderclone)
+Now its been all done, Now simply open your repo and click on **Deploy to Heroku** button.
+
+# READMe of official shell-bot
 It's a fairly complex example, because it actually appears to the
 command as a terminal, interprets escape sequences and **it will
 update messages if their lines get touched**. This means interactive
@@ -98,8 +128,7 @@ node server
 [blog post]: https://alba.sh/blog/telegram-shell-bot/
 
 ```
-Deploy to heroku[WIP]
+Deploy to heroku
 ```
-Make sure you edited **config.json** with your bot token and id && Just
 **Click this button to deploy to heroku**
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/magneto261290/shell3)
