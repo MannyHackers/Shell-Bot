@@ -1,3 +1,4 @@
-git+https://github.com/FaArIsH/youtube-dl
+git+https://github.com/magneto261290/youtube-dl
+git+https://github.com/blackjack4494/youtube-dlc
 streamlink
 folderclone
