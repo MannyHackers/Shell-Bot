@@ -15,6 +15,7 @@ aria2c
 megatools
 ngrok
 qbittorrent-nox
+
 rar & unrar
 p7zip (support almost every archive type except rar)
 ```
